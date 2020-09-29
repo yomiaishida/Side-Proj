@@ -53,6 +53,10 @@ body {
   background-color: #396716;
 }
 
+.seat.preffered {
+  background-color: #396716;
+}
+
 .seat.occupied {
   background-color: #fff;
 }
