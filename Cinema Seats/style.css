@@ -28,6 +28,7 @@ body {
   margin-left: 5px;
   padding: 5px 15px;
   outline: none;
+  width: 150px;
   -webkit-appearance: none;
 }
 
@@ -47,6 +48,11 @@ body {
   margin: 3px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+.total,
+.count {
+  color: #64b12a;
 }
 
 .seat.selected {
