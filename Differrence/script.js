@@ -8,13 +8,12 @@ const difAb = (a, b) => {
     if (a[i] > b[i]) {
       newArr[0] += 1;
     } else if (a[i] === b[i]) {
-      console.log("equal value");
+      // console.log("equal value");
+      // newArr;
     } else {
       newArr[1] += 1;
     }
-    console.log(newArr);
   }
-
   console.log(newArr);
 };
 
