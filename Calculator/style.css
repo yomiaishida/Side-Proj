@@ -41,6 +41,17 @@ input {
   cursor: pointer;
 }
 
+.operator {
+  background: #333;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 .add {
   background-color: brown;
 }
