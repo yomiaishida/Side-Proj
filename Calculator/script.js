@@ -4,6 +4,7 @@ const addBtn = document.querySelector('.add');
 let equalBtn = document.querySelector('.equal');
 
 let a = [];
+let b;
 
 const inputNum = (e) => {
   
@@ -21,24 +22,27 @@ const addNum = () => {
  a.push(input.value)
 
  console.log(a);
+ b = '+'
 
  input.value = ''
 }
 
+
 function totalNum() {
-  let total;
+  let total =0;
   if(input.value !== '') {
     a.push(input.value)
     console.log(a);
 
     a.forEach(num => {
-      total = parseFloat(num) +parseFloat(num);
+      total += parseFloat(num)
       console.log(total);
     });
     input.value = total
     a = [];
+
   } else {
-    alert('Please input a number to be added')
+    alert('Please enter a number to be added')
   }
 }
 
