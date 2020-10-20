@@ -36,6 +36,7 @@ function totalNum() {
       console.log(total);
     });
     input.value = total
+    a = [];
   } else {
     alert('Please input a number to be added')
   }
