@@ -29,20 +29,12 @@ h1 {
   font-size: 3rem;
 }
 
-/* .form {
-  border: 3px solid #fff;
-} */
-
 .container .search {
   width: 400px;
   padding: 5px;
   font-size: 18px;
   border: 0;
   margin-right: 0;
-}
-
-.inputBack {
-  /* background-color: #fff; */
 }
 
 .add-task {
@@ -55,7 +47,7 @@ h1 {
 
 .container .output {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 10px;
 }
 
@@ -75,5 +67,9 @@ h1 {
 }
 
 .add-task:focus {
+  outline: none;
+}
+
+.output .button:focus {
   outline: none;
 }
