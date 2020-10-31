@@ -1,6 +1,7 @@
 const inputBox = document.getElementById("task");
 const addTaskBtn = document.getElementById("add-task");
 const outputContainer = document.querySelector(".output-container");
+const container = document.querySelector(".container");
 
 function getInputText() {
   let inputValue = inputBox.value;
@@ -22,4 +23,11 @@ function getInputText() {
   }
 }
 
+function delTask(e) {
+  if (e.target.classList.contains("delete")) {
+    e.target.parentElement.remove();
+  }
+}
+
 addTaskBtn.addEventListener("click", getInputText);
+container.addEventListener("click", delTask);
